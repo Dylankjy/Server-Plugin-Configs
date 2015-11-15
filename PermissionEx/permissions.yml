@@ -1,0 +1,223 @@
+groups:
+  Default:
+    inheritance: []
+    permissions:
+    - chestcommands.open.Survival.yml
+    - chestcommands.open.Skywars.yml
+    - essentials.back
+    - essentials.back.ondeath
+    - essentials.delhome
+    - essentials.help
+    - essentials.home
+    - essentials.home.bed
+    - essentials.list
+    - essentials.mail
+    - essentials.mail.send
+    - essentials.me
+    - essentials.recipe
+    - essentials.sethome
+    - essentials.suicide
+    - minecraft.command.help
+    - minecraft.command.list
+    - minecraft.command.me
+    - signwarper.signwarper
+    - signwarper.warp
+    - kingkits.kit.use
+    - kingkits.sign.kit.use
+    - kingkits.command.kit
+    - essentials.spawn
+    - arena.join.capturetheflag
+    - arena.leave
+    - serversigns.use.*
+    - hg.join
+    - hg.leave
+    - hg.list
+    - hg.info
+    - modifyworld.chat
+    - modifyworld.items.take.*
+    - modifyworld.items.use.*
+    - afk
+    - afk.auto
+    - back
+    - back.ondeath
+    - balance
+    - balance.others
+    - balancetop
+    - build
+    - chat.color
+    - chat.format
+    - chat.shout
+    - chat.question
+    - clearinventory
+    - compass
+    - depth
+    - delhome
+    - getpos
+    - geoip.show
+    - help
+    - helpop
+    - home
+    - home.others
+    - ignore
+    - info
+    - itemdb
+    - kit
+    - kits.tools
+    - list
+    - mail
+    - mail.send
+    - me
+    - motd
+    - msg
+    - msg.color
+    - nick
+    - near
+    - pay
+    - ping
+    - protect
+    - r
+    - rules
+    - realname
+    - seen
+    - sell
+    - sethome
+    - setxmpp
+    - signs.create.protection
+    - signs.create.trade
+    - signs.break.protection
+    - signs.break.trade
+    - signs.use.balance
+    - signs.use.buy
+    - signs.use.disposal
+    - signs.use.enchant
+    - signs.use.free
+    - signs.use.gamemode
+    - signs.use.heal
+    - signs.use.info
+    - signs.use.kit
+    - signs.use.mail
+    - signs.use.protection
+    - signs.use.repair
+    - signs.use.sell
+    - signs.use.time
+    - signs.use.trade
+    - signs.use.warp
+    - signs.use.weather
+    - spawn
+    - suicide
+    - time
+    - tpa
+    - tpaccept
+    - tpahere
+    - tpdeny
+    - warp
+    - warp.list
+    - world
+    - worth
+    - xmpp
+    - swr.play
+    - modifyworld.chat.private
+    - modifyworld.blocks.interact.*
+    - modifyworld.items.pickup.*
+    - modifyworld.items.hold.*
+    - modifyworld.items.have.*
+    - modifyworld.items.drop.*
+    - null
+    options:
+      default: true
+      prefix: ''
+      suffix: ''
+      rank: '500'
+  Trusted:
+    inheritance:
+    - Default
+    permissions:
+    - essentials.kick
+    - essentials.kick.notify
+    options:
+      default: false
+      prefix: '&a[@Trusted]'
+      suffix: ''
+      rank: '400'
+  Mod:
+    inheritance:
+    - Trusted
+    permissions:
+    - essentials.gamemode
+    - essentials.gamemode.others
+    - essentials.give
+    - essentials.god
+    - essentials.heal
+    - essentials.heal.others
+    - essentials.speed
+    - essentials.time
+    - essentials.time.set
+    - modifyworld.*
+    - sv.use
+    - sv.see
+    options:
+      default: false
+      prefix: '&6[@Mod]'
+      suffix: ''
+      rank: '300'
+  Admin:
+    inheritance:
+    - Mod
+    permissions:
+    - '*'
+    - bukkit.*
+    - essentials.*
+    options:
+      default: false
+      prefix: '&4[@Admin]'
+      suffix: ''
+      rank: '200'
+  Owner:
+    inheritance:
+    - Admin
+    permissions: []
+    options:
+      default: false
+      prefix: '&3[@Owner]'
+      suffix: ''
+      rank: '100'
+users:
+  84835ed4-a5cc-3bf3-9a6e-cd6a9d72aed2:
+    group:
+    - Owner
+    options:
+      name: Dylankjy
+  fb28b085-5de8-3bae-bc58-278b8a706c42:
+    group:
+    - Owner
+    options:
+      name: Senpai_Million
+  a025083a-2137-33ca-be00-c6a83911af30:
+    group:
+    - Owner
+    options:
+      name: FurturisticCraft
+  ff8b988c-ae9e-3044-8d5a-dc9cdbff0e2d:
+    group:
+    - Admin
+    options:
+      name: CubicCells
+  b3da1263-8de4-3904-a99e-ca42b22ec5bc:
+    group:
+    - Default
+    options:
+      name: FocusedSG
+  ff232280-afee-30e1-89d3-1f49596c5848:
+    options:
+      name: Growtopia
+  72a4eb11-a50a-39e3-a40e-3f17a7aa8bc0:
+    group:
+    - Admin
+    options:
+      name: girlgamer2003
+  462d5cb0-2f2d-3792-a88f-146e3d0a9f09:
+    group:
+    - Trusted
+    options:
+      name: budderworrior
+schema-version: 1
