@@ -1,0 +1,31 @@
+games:
+  '1':
+    x: 42
+    y: 63
+    z: -978
+    world: world
+    map: caves
+  '2':
+    x: 42
+    y: 63
+    z: -977
+    world: world
+    map: aether
+  '3':
+    x: 42
+    y: 63
+    z: -976
+    world: world
+    map: candyland
+  '4':
+    x: 42
+    y: 63
+    z: -975
+    world: world
+    map: theend
+  '5':
+    x: 42
+    y: 63
+    z: -974
+    world: world
+    map: jungle
