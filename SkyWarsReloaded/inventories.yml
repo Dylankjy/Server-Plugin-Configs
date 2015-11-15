@@ -1,0 +1,90 @@
+inventories:
+  a648eead-db87-3638-9cb8-8adeb1757cc3:
+    contents:
+    - ==: org.bukkit.inventory.ItemStack
+      type: COMPASS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: Spectate Games
+        enchants:
+          LUCK: 1
+    - ==: org.bukkit.inventory.ItemStack
+      type: WOOD_AXE
+    - ==: org.bukkit.inventory.ItemStack
+      type: SLIME_BALL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: "\xa7aPlayers Visible. \xa74Turn OFF players"
+        lore:
+        - ' '
+        - "\xa7aUseful for people with frame issues"
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      type: EYE_OF_ENDER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: "\xa7aOpen Lobby Menu"
+        enchants:
+          LUCK: 1
+    - null
+    - null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      type: DAYLIGHT_DETECTOR
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: Join Game
+        enchants:
+          LUCK: 1
+        blockMaterial: DAYLIGHT_DETECTOR
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    armor:
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+      damage: -1
+      amount: 0
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+      damage: -1
+      amount: 0
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+      damage: -1
+      amount: 0
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+      damage: -1
+      amount: 0
+    level: 0
+    exp: 0.0
+    gameMode: CREATIVE
